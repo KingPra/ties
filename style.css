@@ -65,8 +65,64 @@ nav {
     justify-content: space-between;
 }
 
-p {
+#menu {
+    font-size: 26px;
+    margin: auto;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#register {
+    text-align: right;
+    margin: 10px 0;
+    height: 20px;
+}
+
+#cart {
+    height: 20px;
+}
+
+/*#register p {
     display: inline;
+    font-size: 11px;
+    color: lightgrey;
+    padding: 0 5px;
+}*/
+
+#test {
+    width: 350px;
+}
+
+#test p {
+    display: inline;
+    font-size: 11px;
+    color: lightgrey;
+    padding: 0 5px;
+}
+
+#sign {
+    text-align: right;
+    padding-top: 10px;
+}
+
+#cart {
+    margin-top: 10px;
+   width: 70px;
+   /*height: 30px;*/
+   border: 1px solid black;
+   display: inline-block;
+}
+
+#layer {
+    text-align: center;
+}
+
+#search {
+    height: 28px;
+    width: 152px;
 }
 
 #grey {
