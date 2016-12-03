@@ -1,14 +1,54 @@
+ @font-face {
+      font-family:'EnzoOT-Medi';
+      src:url('../font/EnzoOT-Medi.eot');
+      src:url('../font/EnzoOT-Medi.eot?#iefix') format('embedded-opentype'),
+        url('../font/EnzoOT-Medi.woff') format('woff'),
+        url('../font/EnzoOT-Medi.ttf') format('truetype');
+    }
+
 body {
-    background-color: purple;
     margin: 0;
+    font-family: sans-serif;
+
 }
 
 
 #red {
     width: 100%;
     height: 38px;
-    background-color: red;
+    background-color:rgb(250, 105, 56);
     
+}
+
+#red ul {
+    margin: 0;
+    padding-left: 100px;
+
+}
+
+#red li {
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+#free {
+    width: 110px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 4px;
+}
+
+#red li {
+    display: inline-block;
+    color: white;
+}
+
+#logo img {
+    width: 128px;
+    height: 117px;
 }
 
 nav {
@@ -19,9 +59,10 @@ nav {
 }
 
 .container {
-    width: 80%;
+    width: 82%;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 p {
