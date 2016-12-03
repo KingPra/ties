@@ -133,14 +133,25 @@ nav {
     background-repeat: repeat-x;
     background-size: 40px;
 
+
 }
 
-main img {
-    height: 5px;
-    width: 50px;
-    background-image: repeat-x;
-    
+#gc {
+    display: block;
+    text-align: center;
 }
+
+.grey p {
+    height: 19px;
+    margin: 0 auto;
+}
+
+#gc img {
+    width: 75px;
+    height: 155px;
+}
+
+
 
 /*#grey div {
     width: 80%;
