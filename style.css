@@ -268,17 +268,18 @@ footer {
     margin: 0;
 }
 
+footer div {
+    display: block; 
+}
 
-footer ul {
-/*<<<<<<< HEAD
+footer ul { 
     margin: 0 auto;
     display: block;
-=======
     margin: 0;
     display: inline-block; 
->>>>>>> parent of 91e099b... aligning footer
+
 }
-*/
+
 footer li {
     border: 1px solid black;
     width: 107px;
@@ -287,23 +288,13 @@ footer li {
     margin: 0 10px;
 }
 
-#block {
-    display: inline-block;
-<<<<<<< HEAD
-    width: 321px;
-    height: 122px;
-    margin-left: 120px;
-=======
- >>>>>>> parent of 91e099b... aligning footer
-}
-
 #block div {
     display: inline-block;
     width: 321px;
     height: 125px;
     border: 1px solid black;
     
-<<<<<<< HEAD 
+
 }
 
 footer h4 {
@@ -314,9 +305,4 @@ footer p {
     display: inline-block;
     font-size: 11px;
     margin: 0;  
-    /*margin: 4% 1% 0 0%;
-   */
-
-=======
->>>>>>> parent of 91e099b... aligning footer
 }
