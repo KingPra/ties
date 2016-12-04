@@ -216,13 +216,13 @@ nav {
     padding-top: 50px;
 }
 
-#white p { .  /
+#white p {
     margin-top: 0;
 }
 
 #list {
     width: 100%;
-    height: 305px;
+    height: 300px;
     background-color: white;
     background-image: url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/hatch-light%402x.png");
     background-repeat: repeat-x;
@@ -237,39 +237,48 @@ nav {
 
 #list ul {
     margin: 0 auto;
+    width: 82%;
+    display: flex;
+    justify-content: space-around;
 }
 
 #list li {
     display: inline-block;
-    width: 233px;
-    height: 216px;
+    width: 250px;
+    margin: 2% 1% 0 1%;
 }
 
 #list p {
     font-size: .9em;
-    margin: 0;
+    margin-top: -10px;
 }
 
-#list a {
+a {
     text-decoration: none;
 }
 
 footer {
     width: 100%;
-    height: 260px;
+    height: 237px;
     background-color: rgb(244, 244, 244);
-    margin: 0;
     background-image: url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/perforated-bottom%402x.png");
     background-repeat: repeat-x;
     background-size: 45px;
+    text-align: center;
+    margin: 0;
 }
 
 
 footer ul {
+/*<<<<<<< HEAD
     margin: 0 auto;
     display: block;
+=======
+    margin: 0;
+    display: inline-block; 
+>>>>>>> parent of 91e099b... aligning footer
 }
-
+*/
 footer li {
     border: 1px solid black;
     width: 107px;
@@ -278,18 +287,14 @@ footer li {
     margin: 0 10px;
 }
 
-footer div {
-    padding-top: 30px;
-    display: block;
-    width: 82%;
-    margin: 0 auto;
-}
-
 #block {
     display: inline-block;
+<<<<<<< HEAD
     width: 321px;
     height: 122px;
-    margin-left: 120px
+    margin-left: 120px;
+=======
+ >>>>>>> parent of 91e099b... aligning footer
 }
 
 #block div {
@@ -298,6 +303,7 @@ footer div {
     height: 125px;
     border: 1px solid black;
     
+<<<<<<< HEAD 
 }
 
 footer h4 {
@@ -311,4 +317,6 @@ footer p {
     /*margin: 4% 1% 0 0%;
    */
 
+=======
+>>>>>>> parent of 91e099b... aligning footer
 }
