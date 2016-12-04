@@ -6,7 +6,16 @@
         url('../font/EnzoOT-Medi.ttf') format('truetype');
     }*/
 
+.facebook .cart .manifier {
+    background-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/style-guide@1.5x.jpg?raw=true");
+    background-repeat: no-repeat;
+}
 
+.facebook {
+    width: 35px;
+    height: 35px;
+    background-postion: -10px 0px;
+}
 
 body {
     margin: 0;
@@ -202,6 +211,7 @@ nav {
 #white div {
     height: 138px;
 }
+
 #story {
     padding-top: 50px;
 }
@@ -220,15 +230,28 @@ nav {
      
 }
 
+#list img {
+    width: 233px;
+    height: 136px;
+}
 
 #list ul {
-    margin: 50px auto 0;
+    margin: 0 auto;
 }
 
 #list li {
     display: inline-block;
     width: 233px;
     height: 216px;
+}
+
+#list p {
+    font-size: .9em;
+    margin: 0;
+}
+
+#list a {
+    text-decoration: none;
 }
 
 footer {
@@ -252,7 +275,6 @@ footer li {
     width: 107px;
     height: 122px;
     display: inline-block;
-    text-align: center;
     margin: 0 10px;
 }
 
@@ -278,8 +300,15 @@ footer div {
     
 }
 
+footer h4 {
+    margin: 0;
+}
+
 footer p {
     display: inline-block;
     font-size: 11px;
-    margin: 4% 1% 0 0%;
+    margin: 0;  
+    /*margin: 4% 1% 0 0%;
+   */
+
 }
