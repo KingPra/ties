@@ -52,7 +52,7 @@ nav {
 #list {
     width: 100%;
     height: 300px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     background-image: url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/hatch-light%402x.png");
     background-repeat: repeat-x;
     background-size: 8px;

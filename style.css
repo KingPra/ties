@@ -165,7 +165,7 @@ nav {
 #white {
     width: 100%;
     height: 518px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding-top: 30px;
     text-align: center;
@@ -185,7 +185,7 @@ nav {
     font-weight: 100;
 }
 
-#white div {
+    #white div {
     height: 138px;
 }
 
@@ -200,7 +200,7 @@ nav {
 #hatch {
     width: 100%;
     height: 300px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     background-image: url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/hatch-light%402x.png");
     background-repeat: repeat-x;
     background-size: 8px;    
@@ -241,7 +241,7 @@ nav {
 #hatch button {
     margin-top: 8px;
     background-color: rgb(51, 161, 255);
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 12px;
     box-shadow: none;
     border: none;
@@ -318,7 +318,7 @@ footer section {
     font-size: 26px;
     font-style: italics;
     font-weight: 100;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0;
     padding-left: 15px;
 }
@@ -336,10 +336,10 @@ footer section {
     width: 104px;
     height: 38px;
     background-color: rgb(51, 161, 255);
-    border: 1px solid grey;
+    border: 1px solid rgb(144, 144, 144);
     border-radius: 3px;
     margin: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 100;
 }
 
