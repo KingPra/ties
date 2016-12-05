@@ -6,15 +6,21 @@
         url('../font/EnzoOT-Medi.ttf') format('truetype');
     }*/
 
-.facebook .cart .manifier {
-    background-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/style-guide@1.5x.jpg?raw=true");
+.facebook {
+    background-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/sprite@2x.png?raw=true");
     background-repeat: no-repeat;
 }
 
 .facebook {
+    object-fit: contain;
+    background-position: -536px 2px;
+    width: 75px;
+    height: 75px;
+}
+
+list .facebook {
     width: 35px;
-    height: 35px;
-    background-postion: -10px 0px;
+
 }
 
 body {
