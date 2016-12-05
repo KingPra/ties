@@ -1,10 +1,3 @@
- /*@font-face {
-      font-family:'EnzoOT-Medi';
-      src:url('../font/EnzoOT-Medi.eot');
-      src:url('../font/EnzoOT-Medi.eot?#iefix') format('embedded-opentype'),
-        url('../font/EnzoOT-Medi.woff') format('woff'),
-        url('../font/EnzoOT-Medi.ttf') format('truetype');
-    }*/
 
 .facebook {
     background-image: url("https://github.com/TIY-Charlotte-Frontend-Engineering/curriculum/blob/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/sprite@2x.png?raw=true");
@@ -104,16 +97,9 @@ nav {
     margin-top: 10px;
    width: 70px;
    height: 30px;
-   /*height: 30px;*/
    border: 1px solid rgb(244, 244, 244);
    display: inline-block;
 }
-/*#register p {
-    display: inline;
-    font-size: 11px;
-    color: lightgrey;
-    padding: 0 5px;
-}*/
 
 #test {
     width: 350px;
@@ -148,8 +134,6 @@ nav {
     background-repeat: repeat-x;
     background-size: 40px;
     text-align: center;
-
-
 }
 
 #gc {
@@ -166,7 +150,6 @@ nav {
 #gc img {
     width: 75px;
     height: 155px;
-    /*margin: 0 1.2%;*/
 }
 #gc p {
     display: inline-block;
@@ -177,16 +160,7 @@ nav {
     display: block;
     font-size:60px;
     font-weight: 100;
-
 }
-
-
-
-/*#grey div {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-}*/
 
 #white {
     width: 100%;
@@ -223,40 +197,39 @@ nav {
     margin-top: 0;
 }
 
-#list {
+#hatch {
     width: 100%;
     height: 300px;
     background-color: white;
     background-image: url("https://raw.githubusercontent.com/TIY-Charlotte-Frontend-Engineering/curriculum/7b2e4f8d208bd5cdaaf1a34130e2d99580883dbe/daily/04-internet/assets/hatch-light%402x.png");
     background-repeat: repeat-x;
-    background-size: 8px;
-     
+    background-size: 8px;    
 }
 
-#list img {
+#hatch img {
     width: 233px;
     height: 136px;
 }
 
-#list ul {
+#hatch ul {
     margin: 0 auto;
     width: 82%;
     display: flex;
     justify-content: space-around;
 }
 
-#list li {
+#hatch li {
     display: inline-block;
     width: 250px;
     margin: 2% 1% 0 1%;
 }
 
-#list p {
+#hatch p {
     font-size: .9em;
     margin-top: -10px;
 }
 
-#list input {
+#hatch input {
     border: 1px solid rgb(211, 211, 211);
     outline: 5px solid rgb(244, 244, 244);
     border-radius: 3px;
@@ -265,7 +238,7 @@ nav {
     position: relative;
 }
 
-#list button {
+#hatch button {
     margin-top: 8px;
     background-color: rgb(51, 161, 255);
     color: white;
@@ -356,6 +329,7 @@ footer section {
     line-height: 1.3em;
     padding-left: 15px;
     font-size: 18px;
+    color: rgb(255, 255, 255);
 }
 
 #block button {
